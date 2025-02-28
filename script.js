@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //Get references to the display to the button elements
     const counterDisplay = document.getElementById("counter-display");
-    const counterButton = documents.getElementById("counter-button");
+    const counterButton = document.getElementById("counter-button");
 
     //Add an event listner to the buttons
     counterButton.addEventListener("click", function() {
