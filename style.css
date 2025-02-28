@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-align: center;
+}
+
+#counter-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#counter-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color:#ffff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#counter-button:hover {
+    background-color: #0056b3;
+}
